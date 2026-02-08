@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Generated output
+meeting_minutes_and_tasks.txt
+*.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python / PyTorch
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment / secrets (never commit API keys)
+.env
+.env.local
+*.pem
